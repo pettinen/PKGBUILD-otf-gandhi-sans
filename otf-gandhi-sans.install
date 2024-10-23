@@ -1,8 +1,8 @@
 post_install() {
   echo -n "Updating font cache... "
   fc-cache -fs >/dev/null
-  mkfontscale /usr/share/fonts/otf-gandhifamily
-  mkfontdir /usr/share/fonts/otf-gandhifamily
+  mkfontscale /usr/share/fonts/otf-gandhi-sans
+  mkfontdir /usr/share/fonts/otf-gandhi-sans
   echo "done"
 }
 
